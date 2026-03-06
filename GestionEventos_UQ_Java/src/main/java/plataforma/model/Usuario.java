@@ -4,13 +4,15 @@ import java.util.List;
 
 public class Usuario {
     private String idUsuario;
+    private String clave;
     private String nombreCompleto;
     private String email;
     private String telefono;
     private List<String> metodosPagosSimulados;
 
-    public Usuario(String idUsuario, String nombreCompleto, String email, String telefono) {
-        this.idUsuario = idUsuario;
+    public Usuario(String clave, String nombreCompleto, String email, String telefono) {
+        this.idUsuario = java.util.UUID.randomUUID().toString();
+        this.clave = clave;
         this.nombreCompleto = nombreCompleto;
         this.email = email;
         this.telefono = telefono;
@@ -24,6 +26,10 @@ public class Usuario {
     public void setIdUsuario(String idUsuario) {
         this.idUsuario = idUsuario;
     }
+
+    public String getClave() {return clave;}
+
+    public void setClave(String clave) {this.clave = clave;}
 
     public String getNombreCompleto() {
         return nombreCompleto;
@@ -56,6 +62,29 @@ public class Usuario {
     public void setMetodosPagos(List<String> metodosPagos) {
         this.metodosPagosSimulados = metodosPagos;
     }
+
+    public List<Compra> consultarCompras(CompraServicio servicio) {
+        return servicio.obtenerComprasPorUsuario(this.idUsuario);
+    }
+
+    public void agregarMetodosPagos(){}
+
+    public boolean eliminarMetodosPagos(){}
+
+    public List<String> listaMetodosPagos(){}
+
+    public void actualizarDatos(String nombre, String email, String telefono){
+        this.nombreCompleto = nombre;
+        this.email = email;
+        this.telefono = telefono;
+    }
+
+    public void validarCredenciales(String email, String clave){}
+
+
+
+
+
 
     @Override
     public String toString() {
