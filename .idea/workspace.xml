@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a6a0a-f307-4e4e-ace8-00eb0556010d" name="Changes" comment="" />
+    <list default="true" id="a05a6a0a-f307-4e4e-ace8-00eb0556010d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/GestorEventos.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/GestorEventos.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -14,9 +30,9 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3AVH7uJHwMt6kZQ0mOWS0SiuPWu" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,10 +46,19 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/modelo-usuario",
+    "git-widget-placeholder": "feature/model-administrador",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/JCOG0/IdeaProjects/GestionEventos_UQ_Java",
+    "last_opened_file_path": "C:/Users/corte/OneDrive/Documentos/Prog2/GestionEventos_UQ_Java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
@@ -42,8 +67,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.30387.90" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>
@@ -55,6 +80,10 @@
       <option name="presentableId" value="Default" />
       <updated>1772670654092</updated>
       <workItem from="1772670655282" duration="289000" />
+      <workItem from="1772760785834" duration="582000" />
+      <workItem from="1772761982874" duration="759000" />
+      <workItem from="1773021235922" duration="1018000" />
+      <workItem from="1773023153075" duration="2400000" />
     </task>
     <servers />
   </component>
