@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05a6a0a-f307-4e4e-ace8-00eb0556010d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Administrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Persona.java" afterDir="false" />
+    <list default="true" id="aec793e3-4b15-4910-b9ef-2bbcb80f836c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/CategoriaEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/EstadoAsiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoBorrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoCancelado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoFinalizado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoPausado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoPublicado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/interfaces/IEstadoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Asiento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Recinto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Zona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/GestorEventos.java" beforeDir="false" afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/GestorEventos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,44 +36,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
-  </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="3AVH7uJHwMt6kZQ0mOWS0SiuPWu" />
+  <component name="ProjectId" id="3B5byrAIhlMOTjOM8aZ1HiUcVlF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "feature/model-administrador",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/corte/OneDrive/Documentos/Prog2/GestionEventos_UQ_Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/model-administrador&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,16 +70,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a05a6a0a-f307-4e4e-ace8-00eb0556010d" name="Changes" comment="" />
-      <created>1772670654092</created>
+      <changelist id="aec793e3-4b15-4910-b9ef-2bbcb80f836c" name="Changes" comment="" />
+      <created>1773782140055</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772670654092</updated>
-      <workItem from="1772670655282" duration="289000" />
-      <workItem from="1772760785834" duration="582000" />
-      <workItem from="1772761982874" duration="759000" />
-      <workItem from="1773021235922" duration="1018000" />
-      <workItem from="1773023153075" duration="2400000" />
+      <updated>1773782140055</updated>
+      <workItem from="1773782143369" duration="2092000" />
+      <workItem from="1773788748994" duration="653000" />
+      <workItem from="1773875376985" duration="2007000" />
     </task>
     <servers />
   </component>
