@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aec793e3-4b15-4910-b9ef-2bbcb80f836c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/CategoriaEvento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/EstadoAsiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoBorrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoCancelado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoFinalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoPausado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/estados/EstadoPublicado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/interfaces/IEstadoEvento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Asiento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Evento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Recinto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Zona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/EstadoCompra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/enums/TipoIncidencia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Compra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GestionEventos_UQ_Java/src/main/java/plataforma/model/Incidencia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -77,7 +69,9 @@
       <updated>1773782140055</updated>
       <workItem from="1773782143369" duration="2092000" />
       <workItem from="1773788748994" duration="653000" />
-      <workItem from="1773875376985" duration="2007000" />
+      <workItem from="1773875376985" duration="2361000" />
+      <workItem from="1773969877575" duration="373000" />
+      <workItem from="1774390564048" duration="4872000" />
     </task>
     <servers />
   </component>
