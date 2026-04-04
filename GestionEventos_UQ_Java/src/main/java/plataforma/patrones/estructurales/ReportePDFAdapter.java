@@ -13,7 +13,7 @@ import main.java.plataforma.patrones.creacionales.Reporte;
  * NOTA: En una implementación real, se usaría una librería como Apache PDFBox
  * o iText para generar el PDF correctamente.
  *
- * @author TuNombre
+ *
  */
 public class ReportePDFAdapter implements IReporteAdapter {
 

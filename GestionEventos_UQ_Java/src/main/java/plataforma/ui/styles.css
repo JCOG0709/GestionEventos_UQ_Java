@@ -1,0 +1,298 @@
+/* ============================================
+   styles.css - Estilos para la UI de JavaFX
+   Plataforma de Gestión de Eventos
+   ============================================ */
+
+/* ========== CONTENEDORES PRINCIPALES ========== */
+.root {
+    -fx-font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+
+.bg-primary {
+    -fx-background: linear-gradient(to bottom right, #1a1a2e, #16213e);
+}
+
+.bg-card {
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0, 0, 5);
+}
+
+.bg-dark {
+    -fx-background-color: #0f3460;
+}
+
+/* ========== TEXTOS ========== */
+.titulo-principal {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.titulo-secundario {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e94560;
+}
+
+.subtitulo {
+    -fx-font-size: 14px;
+    -fx-text-fill: #aaaaaa;
+}
+
+.texto-blanco {
+    -fx-text-fill: white;
+}
+
+.texto-gris {
+    -fx-text-fill: #888888;
+}
+
+/* ========== BOTONES ========== */
+.btn-primary {
+    -fx-background-color: #e94560;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #ff6b6b;
+}
+
+.btn-secondary {
+    -fx-background-color: #533483;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-background-color: #6a3ea3;
+}
+
+.btn-danger {
+    -fx-background-color: #dc3545;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #ff4444;
+}
+
+.btn-success {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.btn-success:hover {
+    -fx-background-color: #34ce57;
+}
+
+.btn-warning {
+    -fx-background-color: #ffc107;
+    -fx-text-fill: #333;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.btn-menu {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 12;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.btn-menu:hover {
+    -fx-background-color: #e94560;
+    -fx-background-radius: 8;
+}
+
+/* ========== CAMPOS DE TEXTO ========== */
+.text-field, .password-field, .combo-box, .date-picker {
+    -fx-background-color: rgba(255,255,255,0.9);
+    -fx-border-color: #ddd;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused, .combo-box:focused {
+    -fx-border-color: #e94560;
+    -fx-border-width: 2px;
+}
+
+/* ========== TABLAS ========== */
+.table-view {
+    -fx-background-color: transparent;
+    -fx-border-color: rgba(255,255,255,0.2);
+    -fx-border-radius: 10;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #e94560;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+    -fx-padding: 12px;
+    -fx-border-color: transparent;
+}
+
+.table-row-cell {
+    -fx-background-color: rgba(255,255,255,0.05);
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(255,255,255,0.1);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #e94560;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: rgba(233,69,96,0.5);
+}
+
+/* ========== PESTAÑAS ========== */
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+.tab {
+    -fx-background-color: #0f3460;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 10px 25px;
+}
+
+.tab:selected {
+    -fx-background-color: #e94560;
+}
+
+.tab-pane .tab-header-area {
+    -fx-background-color: transparent;
+}
+
+/* ========== SCROLL PANE ========== */
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #e94560;
+    -fx-background-radius: 10;
+}
+
+/* ========== TARJETAS (CARDS) ========== */
+.card-metrica {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-background-radius: 15;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 3);
+}
+
+.card-metrica:hover {
+    -fx-background-color: rgba(255,255,255,0.15);
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 12, 0, 0, 5);
+}
+
+/* ========== GRÁFICOS (CHARTS) ========== */
+.chart {
+    -fx-background-color: rgba(255,255,255,0.05);
+    -fx-background-radius: 10;
+    -fx-padding: 15;
+}
+
+.chart-title {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.axis-label {
+    -fx-text-fill: white;
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+}
+
+.chart-legend-item {
+    -fx-text-fill: white;
+}
+
+.chart-series-line {
+    -fx-stroke: #e94560;
+    -fx-stroke-width: 3px;
+}
+
+.chart-bar {
+    -fx-bar-fill: #e94560;
+}
+
+/* ========== SEPARADORES ========== */
+.separator .line {
+    -fx-background-color: rgba(255,255,255,0.2);
+    -fx-pref-height: 1px;
+}
+
+/* ========== LABELS ESPECIALES ========== */
+.label-error {
+    -fx-text-fill: #ff6b6b;
+    -fx-font-size: 12px;
+}
+
+.label-exito {
+    -fx-text-fill: #51cf66;
+    -fx-font-size: 12px;
+}
+
+/* ========== BOTONES DE ACCIÓN EN TABLAS ========== */
+.button-table {
+    -fx-background-color: #e94560;
+    -fx-text-fill: white;
+    -fx-font-size: 11px;
+    -fx-padding: 5px 10px;
+    -fx-background-radius: 5;
+    -fx-cursor: hand;
+}
+
+.button-table:hover {
+    -fx-background-color: #ff6b6b;
+}

@@ -8,7 +8,7 @@ package main.java.plataforma.patrones.comportamiento
  * PROPÓSITO: Define el contrato para el objeto observable (Subject) que mantiene
  * la lista de observadores y los notifica cuando ocurren cambios.
  *
- * @author TuNombre
+ *
  */
 interface ISubject {
     /**

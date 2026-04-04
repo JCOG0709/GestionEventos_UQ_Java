@@ -20,7 +20,7 @@ import java.util.UUID;
  *     .setRangoFechas("2026-03-01", "2026-03-31")
  *     .build();
  *
- * @author TuNombre
+ *
  */
 public class ReporteBuilder implements IReporteBuilder {
     private Reporte reporte;

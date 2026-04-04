@@ -14,7 +14,6 @@ package main.java.plataforma.patrones.comportamiento
  * (usuarios, administradores) cuando un evento cambia de estado o ocurre una incidencia,
  * sin que el emisor necesite conocer los detalles de los receptores.
  *
- * @author TuNombre
  */
 interface IObserver {
     /**

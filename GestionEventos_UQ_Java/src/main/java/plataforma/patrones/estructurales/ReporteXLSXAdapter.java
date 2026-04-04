@@ -12,7 +12,7 @@ import main.java.plataforma.patrones.creacionales.Reporte;
  *
  * NOTA: En una implementación real, se usaría una librería como Apache POI.
  *
- * @author TuNombre
+ *
  */
 public class ReporteXLSXAdapter implements IReporteAdapter {
 

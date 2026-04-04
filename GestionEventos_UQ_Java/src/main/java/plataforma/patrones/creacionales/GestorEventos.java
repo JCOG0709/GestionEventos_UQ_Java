@@ -21,7 +21,7 @@ import java.util.List;
  * - Singleton: Centralizar la gestión de notificaciones en una única instancia global.
  * - Observer: Notificar automáticamente a múltiples suscriptores cuando ocurre un cambio.
  *
- * @author TuNombre
+ *
  */
 public class GestorEventos implements ISubject {
 

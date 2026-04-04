@@ -17,7 +17,7 @@ import java.time.LocalDateTime
  * PROBLEMA QUE RESUELVE: Construir objetos complejos (Reporte) con muchos
  * atributos opcionales de manera legible y sin constructores con muchos parámetros.
  *
- * @author TuNombre
+ *
  */
 interface IReporteBuilder {
     fun reset(): IReporteBuilder?

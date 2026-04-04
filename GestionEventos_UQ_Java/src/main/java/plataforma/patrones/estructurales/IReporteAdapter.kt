@@ -16,7 +16,7 @@ import main.java.plataforma.patrones.creacionales.Reporte
  * diferentes formatos (CSV, PDF, XLSX) sin que el cliente tenga que conocer
  * las implementaciones específicas de cada formato.
  *
- * @author TuNombre
+ * @
  */
 interface IReporteAdapter {
     fun exportar(reporte: Reporte?): String?

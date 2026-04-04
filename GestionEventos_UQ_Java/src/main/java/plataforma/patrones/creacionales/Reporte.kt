@@ -14,7 +14,7 @@ import java.time.LocalDateTime
  *
  * REQUISITO CUBIERTO: RF-019 (Generador de Reportes Operativos - CSV/PDF)
  *
- * @author TuNombre
+ *
  */
 class Reporte internal constructor() {
     var idReporte: String? = null
